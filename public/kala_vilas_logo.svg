@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kvGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="kvFlame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fef08a" />
+    </linearGradient>
+    <linearGradient id="kvMaroon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c2d12" />
+      <stop offset="50%" stop-color="#9a3412" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Icon Emblem: South Indian Deepam & Kalash Motif -->
+  <g transform="translate(10, 10)">
+    <!-- Aura Circle -->
+    <circle cx="50" cy="50" r="45" fill="#fff8f1" stroke="url(#kvGold)" stroke-width="2" stroke-dasharray="3,3" />
+    
+    <!-- Arch / Prabhavali -->
+    <path d="M 24 64 A 32 32 0 0 1 76 64" fill="none" stroke="url(#kvGold)" stroke-width="3" stroke-linecap="round" />
+    <path d="M 20 66 A 38 38 0 0 1 80 66" fill="none" stroke="#d97706" stroke-width="1.5" stroke-linecap="round" opacity="0.6" />
+
+    <!-- Top Kalash finial -->
+    <path d="M 47 22 Q 50 16 53 22 Q 55 26 50 28 Q 45 26 47 22 Z" fill="url(#kvGold)" />
+
+    <!-- Central Deepam Body -->
+    <!-- Base -->
+    <path d="M 36 78 Q 50 74 64 78 L 60 82 Q 50 80 40 82 Z" fill="url(#kvGold)" />
+    <!-- Stem -->
+    <path d="M 47 62 L 46 76 L 54 76 L 53 62 Z" fill="#b45309" />
+    <!-- Oil Bowl -->
+    <path d="M 30 62 Q 50 72 70 62 Q 62 58 50 58 Q 38 58 30 62 Z" fill="url(#kvGold)" />
+    
+    <!-- Central Lamp Pillar / Spire -->
+    <path d="M 48 40 Q 50 36 52 40 L 53 58 L 47 58 Z" fill="#b45309" />
+
+    <!-- 5 Sacred Flames (Pancha Deepam) -->
+    <!-- Center Main Flame -->
+    <path d="M 50 32 Q 44 44 50 50 Q 56 44 50 32 Z" fill="url(#kvFlame)" />
+    <!-- Left Inner Flame -->
+    <path d="M 42 42 Q 37 50 42 56 Q 46 51 42 42 Z" fill="url(#kvFlame)" />
+    <!-- Right Inner Flame -->
+    <path d="M 58 42 Q 54 51 58 56 Q 63 50 58 42 Z" fill="url(#kvFlame)" />
+    <!-- Far Left Flame -->
+    <path d="M 34 50 Q 30 56 34 60 Q 38 57 34 50 Z" fill="url(#kvFlame)" />
+    <!-- Far Right Flame -->
+    <path d="M 66 50 Q 62 57 66 60 Q 70 56 66 50 Z" fill="url(#kvFlame)" />
+  </g>
+
+  <!-- Typography: KALA VILAS -->
+  <g transform="translate(120, 20)">
+    <!-- Brand Name -->
+    <text x="0" y="44" font-family="'Outfit', 'Cinzel', 'Georgia', serif" font-size="36" font-weight="900" fill="url(#kvMaroon)" letter-spacing="3">
+      KALA VILAS
+    </text>
+    
+    <!-- Traditional Subtitle -->
+    <text x="2" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#b45309" letter-spacing="4">
+      AUTHENTIC SOUTH INDIAN HOTEL
+    </text>
+
+    <!-- Decorative Divider Line -->
+    <line x1="2" y1="74" x2="230" y2="74" stroke="url(#kvGold)" stroke-width="1.5" stroke-linecap="round" />
+    <circle cx="116" cy="74" r="3" fill="#ea580c" />
+  </g>
+</svg>
